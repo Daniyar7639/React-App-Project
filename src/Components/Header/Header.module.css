@@ -1,0 +1,91 @@
+.header {
+    min-height: 100%;
+    overflow: hidden;
+    background-color:#E0E0E0;
+    border-top: 1px solid #A3A3A3;
+    border-bottom: 1px solid #A3A3A3;
+    margin-top: 5px;
+
+}
+.subHeader {
+    display: flex;
+    max-width: 1046px;
+    margin: 0 auto;
+    border: 1px solid red;
+    justify-content:space-between;
+}
+/*---------------------------------------------------------------------------*/
+.logoContainer {
+    display:flex ;
+    flex-direction: column;
+    padding: 0 40px 0 20px;
+    justify-content: center;
+ 
+}
+.logo {
+    color: #00a2de;
+    font-size: 46px;
+    font-weight: bold;
+    text-decoration: none;
+    outline-color: red;
+}
+.logoSub {
+    color: #00a2de;
+    font-size: 8px;
+    margin: 0;
+    padding: 0;
+}
+/*------------------------------------------------------------------------------*/
+.nav {
+    display: flex;
+    margin-right: 200px;
+    
+}
+.navLink  {
+    list-style-type: none;
+    display: flex;
+    align-items:  center;
+    flex-wrap: nowrap;
+    padding: 0 0px 0 0;
+    
+}
+.navLink li a {
+    /*flex-shrink: 1;*/
+}
+.navLink a{
+    padding: 0 20px 0 0;
+}
+.navItem {
+ 
+    
+    
+}
+/*----------------------------------------------------------------------------*/
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+.rightUp {
+    align-self: flex-end;
+}
+.rightRus {
+    padding-right: 10px;
+}
+.rightUzb {
+    padding-right: 20px;
+}
+.rightInput {
+    margin-right: 10px;
+}
+.style.rightImg {
+    
+}
+/*-------------------------------------------------------*/
+.rightCabinet {
+    padding-right: 20px;
+    color: black;
+}
+.rightLogin {
+    color: black;
+}
